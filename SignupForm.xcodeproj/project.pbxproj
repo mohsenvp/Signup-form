@@ -7,6 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D131F6BE3E4541718D66715 /* Pods_SignupForm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39BE4F0B7E9FA916476ABC71 /* Pods_SignupForm.framework */; };
+		827AFB3E287AFCF000B2876F /* FormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827AFB3D287AFCF000B2876F /* FormField.swift */; };
+		827AFB45287AFE6C00B2876F /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827AFB44287AFE6C00B2876F /* FormViewController.swift */; };
+		827AFB48287AFF0100B2876F /* FormDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827AFB47287AFF0100B2876F /* FormDemoViewController.swift */; };
+		827AFB4B287AFFC400B2876F /* FormDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827AFB4A287AFFC400B2876F /* FormDataSource.swift */; };
+		827AFB4D287AFFE700B2876F /* FormSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827AFB4C287AFFE700B2876F /* FormSection.swift */; };
+		827AFB4F287B000300B2876F /* FormHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827AFB4E287B000300B2876F /* FormHeader.swift */; };
+		827AFB51287B004900B2876F /* FieldDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827AFB50287B004900B2876F /* FieldDataSource.swift */; };
+		827AFB53287B00A200B2876F /* InputDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827AFB52287B00A200B2876F /* InputDataSource.swift */; };
+		827AFB57287B030100B2876F /* FormDemoModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827AFB56287B030100B2876F /* FormDemoModule.swift */; };
+		827AFB59287B032C00B2876F /* FormDemoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827AFB58287B032C00B2876F /* FormDemoViewModel.swift */; };
+		827AFB68287B041000B2876F /* DateInputCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827AFB65287B041000B2876F /* DateInputCell.swift */; };
+		827AFB69287B041000B2876F /* DateInputFormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827AFB66287B041000B2876F /* DateInputFormField.swift */; };
+		827AFB6A287B041000B2876F /* DateInputViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827AFB67287B041000B2876F /* DateInputViewModel.swift */; };
+		827AFB6F287B042A00B2876F /* SelectInputViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827AFB6C287B042A00B2876F /* SelectInputViewModel.swift */; };
+		827AFB70287B042A00B2876F /* SelectInputFormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827AFB6D287B042A00B2876F /* SelectInputFormField.swift */; };
+		827AFB71287B042A00B2876F /* SelectInputCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827AFB6E287B042A00B2876F /* SelectInputCell.swift */; };
+		827AFB76287B043D00B2876F /* TextInputFormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827AFB73287B043D00B2876F /* TextInputFormField.swift */; };
+		827AFB77287B043D00B2876F /* TextInputViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827AFB74287B043D00B2876F /* TextInputViewModel.swift */; };
+		827AFB78287B043D00B2876F /* TextInputCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827AFB75287B043D00B2876F /* TextInputCell.swift */; };
+		827AFB7C287B045900B2876F /* TitleFormHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827AFB7A287B045900B2876F /* TitleFormHeader.swift */; };
+		827AFB7D287B045900B2876F /* TitleHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827AFB7B287B045900B2876F /* TitleHeaderFooterView.swift */; };
+		827AFB82287B047100B2876F /* ToggleInputCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827AFB7F287B047100B2876F /* ToggleInputCell.swift */; };
+		827AFB83287B047100B2876F /* ToggleInputFormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827AFB80287B047100B2876F /* ToggleInputFormField.swift */; };
+		827AFB84287B047100B2876F /* ToggleInputViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827AFB81287B047100B2876F /* ToggleInputViewModel.swift */; };
+		827AFB8B287B04C300B2876F /* OpenSelectRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827AFB86287B04C300B2876F /* OpenSelectRouterInput.swift */; };
+		827AFB8C287B04C300B2876F /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827AFB87287B04C300B2876F /* SelectViewController.swift */; };
+		827AFB8D287B04C300B2876F /* SelectableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827AFB88287B04C300B2876F /* SelectableItem.swift */; };
+		827AFB8E287B04C300B2876F /* SelectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827AFB89287B04C300B2876F /* SelectViewModel.swift */; };
+		827AFB8F287B04C300B2876F /* SelectModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827AFB8A287B04C300B2876F /* SelectModule.swift */; };
+		827AFB92287B04E500B2876F /* FormDemoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827AFB91287B04E500B2876F /* FormDemoRouter.swift */; };
+		827AFB96287B051000B2876F /* Province.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827AFB94287B051000B2876F /* Province.swift */; };
+		827AFB97287B051000B2876F /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827AFB95287B051000B2876F /* Country.swift */; };
 		82BA3FC2287AF9DB00CA0182 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BA3FC1287AF9DB00CA0182 /* AppDelegate.swift */; };
 		82BA3FC4287AF9DB00CA0182 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BA3FC3287AF9DB00CA0182 /* SceneDelegate.swift */; };
 		82BA3FC6287AF9DB00CA0182 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BA3FC5287AF9DB00CA0182 /* ViewController.swift */; };
@@ -16,6 +49,8 @@
 		82BA3FD9287AF9DC00CA0182 /* SignupFormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BA3FD8287AF9DC00CA0182 /* SignupFormTests.swift */; };
 		82BA3FE3287AF9DC00CA0182 /* SignupFormUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BA3FE2287AF9DC00CA0182 /* SignupFormUITests.swift */; };
 		82BA3FE5287AF9DC00CA0182 /* SignupFormUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BA3FE4287AF9DC00CA0182 /* SignupFormUITestsLaunchTests.swift */; };
+		986F6060BDAD910F64BBE9D5 /* Pods_SignupForm_SignupFormUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70871DA4A772E73C7E3181DE /* Pods_SignupForm_SignupFormUITests.framework */; };
+		B0FBEEBD9565109535EA475C /* Pods_SignupFormTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4913B8E206F88A48CB388C74 /* Pods_SignupFormTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +71,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2AD3E24D44D3EE6AEA6C94C6 /* Pods-SignupFormTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignupFormTests.release.xcconfig"; path = "Target Support Files/Pods-SignupFormTests/Pods-SignupFormTests.release.xcconfig"; sourceTree = "<group>"; };
+		39BE4F0B7E9FA916476ABC71 /* Pods_SignupForm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignupForm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4913B8E206F88A48CB388C74 /* Pods_SignupFormTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignupFormTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E8C5B005E398BE75229AF88 /* Pods-SignupForm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignupForm.release.xcconfig"; path = "Target Support Files/Pods-SignupForm/Pods-SignupForm.release.xcconfig"; sourceTree = "<group>"; };
+		70871DA4A772E73C7E3181DE /* Pods_SignupForm_SignupFormUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignupForm_SignupFormUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		733EFAEC9679B5DADFDB5D9B /* Pods-SignupForm-SignupFormUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignupForm-SignupFormUITests.debug.xcconfig"; path = "Target Support Files/Pods-SignupForm-SignupFormUITests/Pods-SignupForm-SignupFormUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		827AFB3D287AFCF000B2876F /* FormField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormField.swift; sourceTree = "<group>"; };
+		827AFB44287AFE6C00B2876F /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		827AFB47287AFF0100B2876F /* FormDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormDemoViewController.swift; sourceTree = "<group>"; };
+		827AFB4A287AFFC400B2876F /* FormDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormDataSource.swift; sourceTree = "<group>"; };
+		827AFB4C287AFFE700B2876F /* FormSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormSection.swift; sourceTree = "<group>"; };
+		827AFB4E287B000300B2876F /* FormHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormHeader.swift; sourceTree = "<group>"; };
+		827AFB50287B004900B2876F /* FieldDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldDataSource.swift; sourceTree = "<group>"; };
+		827AFB52287B00A200B2876F /* InputDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputDataSource.swift; sourceTree = "<group>"; };
+		827AFB56287B030100B2876F /* FormDemoModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormDemoModule.swift; sourceTree = "<group>"; };
+		827AFB58287B032C00B2876F /* FormDemoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormDemoViewModel.swift; sourceTree = "<group>"; };
+		827AFB65287B041000B2876F /* DateInputCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateInputCell.swift; sourceTree = "<group>"; };
+		827AFB66287B041000B2876F /* DateInputFormField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateInputFormField.swift; sourceTree = "<group>"; };
+		827AFB67287B041000B2876F /* DateInputViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateInputViewModel.swift; sourceTree = "<group>"; };
+		827AFB6C287B042A00B2876F /* SelectInputViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectInputViewModel.swift; sourceTree = "<group>"; };
+		827AFB6D287B042A00B2876F /* SelectInputFormField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectInputFormField.swift; sourceTree = "<group>"; };
+		827AFB6E287B042A00B2876F /* SelectInputCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectInputCell.swift; sourceTree = "<group>"; };
+		827AFB73287B043D00B2876F /* TextInputFormField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextInputFormField.swift; sourceTree = "<group>"; };
+		827AFB74287B043D00B2876F /* TextInputViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextInputViewModel.swift; sourceTree = "<group>"; };
+		827AFB75287B043D00B2876F /* TextInputCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextInputCell.swift; sourceTree = "<group>"; };
+		827AFB7A287B045900B2876F /* TitleFormHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleFormHeader.swift; sourceTree = "<group>"; };
+		827AFB7B287B045900B2876F /* TitleHeaderFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleHeaderFooterView.swift; sourceTree = "<group>"; };
+		827AFB7F287B047100B2876F /* ToggleInputCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToggleInputCell.swift; sourceTree = "<group>"; };
+		827AFB80287B047100B2876F /* ToggleInputFormField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToggleInputFormField.swift; sourceTree = "<group>"; };
+		827AFB81287B047100B2876F /* ToggleInputViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToggleInputViewModel.swift; sourceTree = "<group>"; };
+		827AFB86287B04C300B2876F /* OpenSelectRouterInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenSelectRouterInput.swift; sourceTree = "<group>"; };
+		827AFB87287B04C300B2876F /* SelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
+		827AFB88287B04C300B2876F /* SelectableItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectableItem.swift; sourceTree = "<group>"; };
+		827AFB89287B04C300B2876F /* SelectViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectViewModel.swift; sourceTree = "<group>"; };
+		827AFB8A287B04C300B2876F /* SelectModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectModule.swift; sourceTree = "<group>"; };
+		827AFB91287B04E500B2876F /* FormDemoRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormDemoRouter.swift; sourceTree = "<group>"; };
+		827AFB94287B051000B2876F /* Province.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Province.swift; sourceTree = "<group>"; };
+		827AFB95287B051000B2876F /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		82BA3FBE287AF9DB00CA0182 /* SignupForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignupForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82BA3FC1287AF9DB00CA0182 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82BA3FC3287AF9DB00CA0182 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +122,9 @@
 		82BA3FDE287AF9DC00CA0182 /* SignupFormUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignupFormUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82BA3FE2287AF9DC00CA0182 /* SignupFormUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupFormUITests.swift; sourceTree = "<group>"; };
 		82BA3FE4287AF9DC00CA0182 /* SignupFormUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupFormUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9B1CC764F6E13546A5378731 /* Pods-SignupForm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignupForm.debug.xcconfig"; path = "Target Support Files/Pods-SignupForm/Pods-SignupForm.debug.xcconfig"; sourceTree = "<group>"; };
+		A9D1C96FCD7E5EE0FA2303EB /* Pods-SignupForm-SignupFormUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignupForm-SignupFormUITests.release.xcconfig"; path = "Target Support Files/Pods-SignupForm-SignupFormUITests/Pods-SignupForm-SignupFormUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DB873FD0161DBADCCD4ADAB7 /* Pods-SignupFormTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignupFormTests.debug.xcconfig"; path = "Target Support Files/Pods-SignupFormTests/Pods-SignupFormTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D131F6BE3E4541718D66715 /* Pods_SignupForm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0FBEEBD9565109535EA475C /* Pods_SignupFormTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +148,150 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				986F6060BDAD910F64BBE9D5 /* Pods_SignupForm_SignupFormUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21D4DB704E4671547DDF3D36 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B1CC764F6E13546A5378731 /* Pods-SignupForm.debug.xcconfig */,
+				4E8C5B005E398BE75229AF88 /* Pods-SignupForm.release.xcconfig */,
+				733EFAEC9679B5DADFDB5D9B /* Pods-SignupForm-SignupFormUITests.debug.xcconfig */,
+				A9D1C96FCD7E5EE0FA2303EB /* Pods-SignupForm-SignupFormUITests.release.xcconfig */,
+				DB873FD0161DBADCCD4ADAB7 /* Pods-SignupFormTests.debug.xcconfig */,
+				2AD3E24D44D3EE6AEA6C94C6 /* Pods-SignupFormTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		827AFB3C287AFCCF00B2876F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				827AFB49287AFFAF00B2876F /* DataSource */,
+				827AFB3D287AFCF000B2876F /* FormField.swift */,
+				827AFB44287AFE6C00B2876F /* FormViewController.swift */,
+				827AFB4C287AFFE700B2876F /* FormSection.swift */,
+				827AFB4E287B000300B2876F /* FormHeader.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		827AFB3F287AFD4400B2876F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				827AFB7E287B046B00B2876F /* ToggleInputCell */,
+				827AFB79287B045100B2876F /* TitleHeader */,
+				827AFB72287B043700B2876F /* TextInputCell */,
+				827AFB6B287B042200B2876F /* SelectInputCell */,
+				827AFB64287B03FF00B2876F /* DateInputCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		827AFB46287AFEEB00B2876F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				827AFB90287B04C900B2876F /* Form */,
+				827AFB85287B04B700B2876F /* Select */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		827AFB49287AFFAF00B2876F /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				827AFB4A287AFFC400B2876F /* FormDataSource.swift */,
+				827AFB50287B004900B2876F /* FieldDataSource.swift */,
+				827AFB52287B00A200B2876F /* InputDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		827AFB64287B03FF00B2876F /* DateInputCell */ = {
+			isa = PBXGroup;
+			children = (
+				827AFB65287B041000B2876F /* DateInputCell.swift */,
+				827AFB66287B041000B2876F /* DateInputFormField.swift */,
+				827AFB67287B041000B2876F /* DateInputViewModel.swift */,
+			);
+			path = DateInputCell;
+			sourceTree = "<group>";
+		};
+		827AFB6B287B042200B2876F /* SelectInputCell */ = {
+			isa = PBXGroup;
+			children = (
+				827AFB6E287B042A00B2876F /* SelectInputCell.swift */,
+				827AFB6D287B042A00B2876F /* SelectInputFormField.swift */,
+				827AFB6C287B042A00B2876F /* SelectInputViewModel.swift */,
+			);
+			path = SelectInputCell;
+			sourceTree = "<group>";
+		};
+		827AFB72287B043700B2876F /* TextInputCell */ = {
+			isa = PBXGroup;
+			children = (
+				827AFB75287B043D00B2876F /* TextInputCell.swift */,
+				827AFB73287B043D00B2876F /* TextInputFormField.swift */,
+				827AFB74287B043D00B2876F /* TextInputViewModel.swift */,
+			);
+			path = TextInputCell;
+			sourceTree = "<group>";
+		};
+		827AFB79287B045100B2876F /* TitleHeader */ = {
+			isa = PBXGroup;
+			children = (
+				827AFB7A287B045900B2876F /* TitleFormHeader.swift */,
+				827AFB7B287B045900B2876F /* TitleHeaderFooterView.swift */,
+			);
+			path = TitleHeader;
+			sourceTree = "<group>";
+		};
+		827AFB7E287B046B00B2876F /* ToggleInputCell */ = {
+			isa = PBXGroup;
+			children = (
+				827AFB7F287B047100B2876F /* ToggleInputCell.swift */,
+				827AFB80287B047100B2876F /* ToggleInputFormField.swift */,
+				827AFB81287B047100B2876F /* ToggleInputViewModel.swift */,
+			);
+			path = ToggleInputCell;
+			sourceTree = "<group>";
+		};
+		827AFB85287B04B700B2876F /* Select */ = {
+			isa = PBXGroup;
+			children = (
+				827AFB86287B04C300B2876F /* OpenSelectRouterInput.swift */,
+				827AFB88287B04C300B2876F /* SelectableItem.swift */,
+				827AFB8A287B04C300B2876F /* SelectModule.swift */,
+				827AFB87287B04C300B2876F /* SelectViewController.swift */,
+				827AFB89287B04C300B2876F /* SelectViewModel.swift */,
+			);
+			path = Select;
+			sourceTree = "<group>";
+		};
+		827AFB90287B04C900B2876F /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				827AFB56287B030100B2876F /* FormDemoModule.swift */,
+				827AFB47287AFF0100B2876F /* FormDemoViewController.swift */,
+				827AFB91287B04E500B2876F /* FormDemoRouter.swift */,
+				827AFB58287B032C00B2876F /* FormDemoViewModel.swift */,
+			);
+			path = Form;
+			sourceTree = "<group>";
+		};
+		827AFB93287B04FC00B2876F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				827AFB95287B051000B2876F /* Country.swift */,
+				827AFB94287B051000B2876F /* Province.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		82BA3FB5287AF9DB00CA0182 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +299,8 @@
 				82BA3FD7287AF9DC00CA0182 /* SignupFormTests */,
 				82BA3FE1287AF9DC00CA0182 /* SignupFormUITests */,
 				82BA3FBF287AF9DB00CA0182 /* Products */,
+				21D4DB704E4671547DDF3D36 /* Pods */,
+				8B998AAD2F41BA6F8A2943EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +317,10 @@
 		82BA3FC0287AF9DB00CA0182 /* SignupForm */ = {
 			isa = PBXGroup;
 			children = (
+				827AFB93287B04FC00B2876F /* Models */,
+				827AFB46287AFEEB00B2876F /* Modules */,
+				827AFB3F287AFD4400B2876F /* Views */,
+				827AFB3C287AFCCF00B2876F /* Utilities */,
 				82BA3FC1287AF9DB00CA0182 /* AppDelegate.swift */,
 				82BA3FC3287AF9DB00CA0182 /* SceneDelegate.swift */,
 				82BA3FC5287AF9DB00CA0182 /* ViewController.swift */,
@@ -127,6 +349,16 @@
 			path = SignupFormUITests;
 			sourceTree = "<group>";
 		};
+		8B998AAD2F41BA6F8A2943EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39BE4F0B7E9FA916476ABC71 /* Pods_SignupForm.framework */,
+				70871DA4A772E73C7E3181DE /* Pods_SignupForm_SignupFormUITests.framework */,
+				4913B8E206F88A48CB388C74 /* Pods_SignupFormTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +366,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82BA3FE8287AF9DC00CA0182 /* Build configuration list for PBXNativeTarget "SignupForm" */;
 			buildPhases = (
+				246B2651DDD9DD8920A800AA /* [CP] Check Pods Manifest.lock */,
 				82BA3FBA287AF9DB00CA0182 /* Sources */,
 				82BA3FBB287AF9DB00CA0182 /* Frameworks */,
 				82BA3FBC287AF9DB00CA0182 /* Resources */,
+				BA763783522D6E3A1EA9AF04 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +385,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82BA3FEB287AF9DC00CA0182 /* Build configuration list for PBXNativeTarget "SignupFormTests" */;
 			buildPhases = (
+				6E719A42A03D41AA4509AA8D /* [CP] Check Pods Manifest.lock */,
 				82BA3FD0287AF9DC00CA0182 /* Sources */,
 				82BA3FD1287AF9DC00CA0182 /* Frameworks */,
 				82BA3FD2287AF9DC00CA0182 /* Resources */,
@@ -169,9 +404,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82BA3FEE287AF9DC00CA0182 /* Build configuration list for PBXNativeTarget "SignupFormUITests" */;
 			buildPhases = (
+				F97D6BEE630DA0FA1A82ECA4 /* [CP] Check Pods Manifest.lock */,
 				82BA3FDA287AF9DC00CA0182 /* Sources */,
 				82BA3FDB287AF9DC00CA0182 /* Frameworks */,
 				82BA3FDC287AF9DC00CA0182 /* Resources */,
+				0B299A8ADA835A0DC6E528E6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +490,149 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B299A8ADA835A0DC6E528E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SignupForm-SignupFormUITests/Pods-SignupForm-SignupFormUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SignupForm-SignupFormUITests/Pods-SignupForm-SignupFormUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SignupForm-SignupFormUITests/Pods-SignupForm-SignupFormUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		246B2651DDD9DD8920A800AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SignupForm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E719A42A03D41AA4509AA8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SignupFormTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA763783522D6E3A1EA9AF04 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SignupForm/Pods-SignupForm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SignupForm/Pods-SignupForm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SignupForm/Pods-SignupForm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F97D6BEE630DA0FA1A82ECA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SignupForm-SignupFormUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		82BA3FBA287AF9DB00CA0182 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				827AFB82287B047100B2876F /* ToggleInputCell.swift in Sources */,
+				827AFB83287B047100B2876F /* ToggleInputFormField.swift in Sources */,
+				827AFB6F287B042A00B2876F /* SelectInputViewModel.swift in Sources */,
+				827AFB70287B042A00B2876F /* SelectInputFormField.swift in Sources */,
 				82BA3FC6287AF9DB00CA0182 /* ViewController.swift in Sources */,
+				827AFB57287B030100B2876F /* FormDemoModule.swift in Sources */,
+				827AFB4D287AFFE700B2876F /* FormSection.swift in Sources */,
 				82BA3FC2287AF9DB00CA0182 /* AppDelegate.swift in Sources */,
+				827AFB8D287B04C300B2876F /* SelectableItem.swift in Sources */,
+				827AFB68287B041000B2876F /* DateInputCell.swift in Sources */,
+				827AFB7C287B045900B2876F /* TitleFormHeader.swift in Sources */,
+				827AFB53287B00A200B2876F /* InputDataSource.swift in Sources */,
+				827AFB45287AFE6C00B2876F /* FormViewController.swift in Sources */,
+				827AFB78287B043D00B2876F /* TextInputCell.swift in Sources */,
+				827AFB8C287B04C300B2876F /* SelectViewController.swift in Sources */,
+				827AFB7D287B045900B2876F /* TitleHeaderFooterView.swift in Sources */,
+				827AFB77287B043D00B2876F /* TextInputViewModel.swift in Sources */,
+				827AFB84287B047100B2876F /* ToggleInputViewModel.swift in Sources */,
+				827AFB69287B041000B2876F /* DateInputFormField.swift in Sources */,
+				827AFB8F287B04C300B2876F /* SelectModule.swift in Sources */,
+				827AFB71287B042A00B2876F /* SelectInputCell.swift in Sources */,
+				827AFB59287B032C00B2876F /* FormDemoViewModel.swift in Sources */,
+				827AFB76287B043D00B2876F /* TextInputFormField.swift in Sources */,
+				827AFB3E287AFCF000B2876F /* FormField.swift in Sources */,
+				827AFB8B287B04C300B2876F /* OpenSelectRouterInput.swift in Sources */,
+				827AFB4F287B000300B2876F /* FormHeader.swift in Sources */,
 				82BA3FC4287AF9DB00CA0182 /* SceneDelegate.swift in Sources */,
+				827AFB48287AFF0100B2876F /* FormDemoViewController.swift in Sources */,
+				827AFB97287B051000B2876F /* Country.swift in Sources */,
+				827AFB6A287B041000B2876F /* DateInputViewModel.swift in Sources */,
+				827AFB4B287AFFC400B2876F /* FormDataSource.swift in Sources */,
+				827AFB51287B004900B2876F /* FieldDataSource.swift in Sources */,
+				827AFB96287B051000B2876F /* Province.swift in Sources */,
+				827AFB8E287B04C300B2876F /* SelectViewModel.swift in Sources */,
+				827AFB92287B04E500B2876F /* FormDemoRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +804,7 @@
 		};
 		82BA3FE9287AF9DC00CA0182 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B1CC764F6E13546A5378731 /* Pods-SignupForm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +833,7 @@
 		};
 		82BA3FEA287AF9DC00CA0182 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E8C5B005E398BE75229AF88 /* Pods-SignupForm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +862,7 @@
 		};
 		82BA3FEC287AF9DC00CA0182 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB873FD0161DBADCCD4ADAB7 /* Pods-SignupFormTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +883,7 @@
 		};
 		82BA3FED287AF9DC00CA0182 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AD3E24D44D3EE6AEA6C94C6 /* Pods-SignupFormTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +904,7 @@
 		};
 		82BA3FEF287AF9DC00CA0182 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 733EFAEC9679B5DADFDB5D9B /* Pods-SignupForm-SignupFormUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +923,7 @@
 		};
 		82BA3FF0287AF9DC00CA0182 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9D1C96FCD7E5EE0FA2303EB /* Pods-SignupForm-SignupFormUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
